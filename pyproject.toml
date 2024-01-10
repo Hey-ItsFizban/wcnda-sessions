@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "db-session-wcnda-v1"
+version = "0.1.0"
+description = ""
+authors = ["Niv Uzan <nivuzan90@gmail.com>"]
+readme = "README.md"
+packages = [{include = "db_session_wcnda_v1"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+SQLAlchemy = "^2.0.25"
+psycopg2 = "^2.9.9"
+pymysql = "^1.1.0"
+jupyter = "^1.0.0"
+cryptography = "^41.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
