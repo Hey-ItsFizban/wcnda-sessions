@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "db-session-wcnda-v1"
+name = "db-sessions"
 version = "0.1.0"
 description = ""
 authors = ["Niv Uzan <nivuzan90@gmail.com>"]
 readme = "README.md"
-packages = [{include = "db_session_wcnda_v1"}]
+packages = [{include = "db_sessions"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
